@@ -1,30 +1,25 @@
 # include <iostream>
 # include <stdio.h>
 # include <stdlib.h>
-# include <string.h>
-
+# include <string.h>
 # include <sys/types.h>
 # include <vector>
-# include <signal.h>
-
-#include <sys/wait.h>
-
-#include <iostream>
-#include <string>
-#include <stdio.h>
-#include <sys/types.h>
-#include <sys/socket.h>
-#include <netinet/in.h>
-#include <arpa/inet.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <string.h>
-#include <netdb.h>
-#include <sys/uio.h>
-#include <sys/time.h>
-#include <sys/wait.h>
-#include <fcntl.h>
-#include <fstream>
+# include <signal.h>
+# include <sys/wait.h>
+# include <iostream>
+# include <string>
+# include <stdio.h>
+# include <sys/types.h>
+# include <sys/socket.h>
+# include <netinet/in.h>
+# include <arpa/inet.h>
+# include <stdlib.h>
+# include <unistd.h>
+# include <netdb.h>
+# include <sys/uio.h>
+# include <sys/time.h>
+# include <fcntl.h>
+# include <fstream>
 
 using namespace std;
 
