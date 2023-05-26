@@ -51,7 +51,7 @@ bool TCPClient::setup(string address, int port) {
 	}
 	server.sin_family = AF_INET;
 	server.sin_port = htons(port);
-	if (connect(sock, (struct sockaddr *)&server, sizeof (server) < 0)) {
+	if (connect(sock, (struct sockaddr *)&server, sizeof (server)) < 0) {
 		cout << "Connect error" << endl;
 		return false;
 	}
